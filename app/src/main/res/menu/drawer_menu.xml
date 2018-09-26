@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_first"
+            android:title="First" />
+
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@drawable/ic_second"
+            android:title="Second" />
+
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@drawable/ic_third"
+            android:title="Third" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_forth"
+                android:icon="@drawable/ic_forth"
+                android:title="Forth" />
+
+            <item
+                android:id="@+id/nav_fifth"
+                android:icon="@drawable/ic_fifth"
+                android:title="Fifth" />
+        </menu>
+    </item>
+
+
+</menu>
