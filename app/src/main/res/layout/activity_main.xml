@@ -23,6 +23,7 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
+        //Putting our fragments into this
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
@@ -30,6 +31,7 @@
 
     </LinearLayout>
 
+    //putting our navigation drawer in
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"

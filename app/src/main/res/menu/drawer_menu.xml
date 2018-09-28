@@ -3,34 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn= "navigation_view">
 
-    <group android:checkableBehavior="single">
+
+    // adding the items to navigation menu
+    <group android:checkableBehavior="single"> // makes sure we can only select one item from this list
         <item
-            android:id="@+id/nav_first"
-            android:icon="@drawable/ic_first"
-            android:title="First" />
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
 
         <item
-            android:id="@+id/nav_second"
-            android:icon="@drawable/ic_second"
-            android:title="Second" />
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shop"
+            android:title="Shop" />
 
         <item
-            android:id="@+id/nav_third"
-            android:icon="@drawable/ic_third"
-            android:title="Third" />
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Shopping Cart" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="">
         <menu>
             <item
-                android:id="@+id/nav_forth"
-                android:icon="@drawable/ic_forth"
-                android:title="Forth" />
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_location"
+                android:title="Contact Info" />
 
             <item
-                android:id="@+id/nav_fifth"
-                android:icon="@drawable/ic_fifth"
-                android:title="Fifth" />
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
         </menu>
     </item>
 
